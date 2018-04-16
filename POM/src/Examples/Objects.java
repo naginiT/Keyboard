@@ -24,7 +24,8 @@ public class Objects{
 	
 	public void close() {
 		
-		driver.quit();;
+		driver.quit();
+		System.out.println("hi");
 	}
 	
 }
